@@ -1,3 +1,10 @@
+Key:
+| Status | Indicator |
+|--|--|
+| Done | ✅ |
+| In Progress | 🚧 |
+| No public movement | 🤫 |
+
 # In Progress
 
 ## ✅ Faster apps by inlining critical styles in Universal applications
