@@ -25,9 +25,10 @@ Added [here](https://github.com/angular/angular/pull/41125)
 
 More in progress [here](https://github.com/angular/angular/pull/41319)
 
-## 🤫 Update our e2e testing strategy
+## ✅ Update our e2e testing strategy
 
-No public movement
+[Protractor deprecation announced](https://github.com/angular/protractor/issues/5502). 
+Development will end at the end of 2022.
 
 ## 🚧 Angular libraries use Ivy
 [RFC](https://github.com/angular/angular/issues/38366)
@@ -35,6 +36,8 @@ No public movement
 [GitHub Project Board](https://github.com/orgs/angular/projects/2)
 
 Available in 11.1, see [this article](https://blog.ninja-squad.com/2021/01/27/angular-linker/)
+
+Some more details in [Angular biweekly meeting notes](https://docs.google.com/document/d/1rC5dz7AkCZP813daT_bccbS-20OLmXgBVi50CSKx148/pub) from March 23, 2021.
 
 ## 🤫 Ensure smooth adoption for future RxJS changes (v7 and beyond)
 
@@ -58,9 +61,9 @@ Available in [Material Experimental](https://github.com/angular/components/tree/
 ## 🤫 Offer Google engineers better integration with Angular and Google's internal server stack
 Internal project. Unlikely to have any public movement or benefits.
 
-## 🤫 Streamline releases with consolidated Angular versioning & branching
+## 🚧 Streamline releases with consolidated Angular versioning & branching
 
-No public movement
+Some details in [Angular biweekly meeting notes](https://docs.google.com/document/d/1rC5dz7AkCZP813daT_bccbS-20OLmXgBVi50CSKx148/pub) from March 23, 2021. It sounds like there are some difficulties.
 
 ## 🚧 Optimized build speed and bundle sizes with Angular CLI webpack 5
 
