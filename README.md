@@ -1,4 +1,12 @@
-Key:
+# What is This?
+
+The Angular team has a roadmap on their site, but it gives a very broad overview of many things.
+The goal of this document is to provide more details about the progress of every initiative in the roadmap.
+
+PRs are welcome!
+
+# Key
+
 | Status | Indicator |
 |--|--|
 | Done | ✅ |
