@@ -77,7 +77,9 @@ Some details in [Angular biweekly meeting notes](https://docs.google.com/documen
 
 Opt-in preview available in 11.1 [details here](https://github.com/angular/angular-cli/pull/18820)
 
-[Draft PR to make it default](https://github.com/angular/angular-cli/pull/20084)
+[A PR to make Webpack 5 the default](https://github.com/angular/angular-cli/pull/20466) has been merged!
+
+Some more work may still need to be done to take full advantage of Webpack 5 features, and to remove logic related to Webpack 4.
 
 ## 🤫 Higher developer consistency with commit message standardization
 
