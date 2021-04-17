@@ -31,7 +31,7 @@ Detailed documentation of errors has been added [here](https://angular.io/errors
 
 Added [here](https://github.com/angular/angular/pull/41125)
 
-More in progress [here](https://github.com/angular/angular/pull/41319)
+More added [here](https://github.com/angular/angular/pull/41319)
 
 ## ✅ Update our e2e testing strategy
 
@@ -47,9 +47,13 @@ Available in 11.1, see [this article](https://blog.ninja-squad.com/2021/01/27/an
 
 Some more details in [Angular biweekly meeting notes](https://docs.google.com/document/d/1rC5dz7AkCZP813daT_bccbS-20OLmXgBVi50CSKx148/pub) from March 23, 2021.
 
+The partial compiler for libraries won't become default until Angular 13.
+
 ## 🤫 Ensure smooth adoption for future RxJS changes (v7 and beyond)
 
 No public movement yet. rxjs seems to work fine with Angular 12-next.6 in my simple project.
+
+Here's [one PR](https://github.com/angular/angular/pull/41590) that aims to improve some compatibility with the latest versions of RxJS.
 
 ## 🚧 Transition the Angular language service to Ivy
 
@@ -64,7 +68,7 @@ Some more PRs in progress [here](https://github.com/angular/angular/pull/40499),
 
 ## 🚧 Enhanced Angular Material components by integrating MDC Web
 
-Available in [Material Experimental](https://github.com/angular/components/tree/master/src/material-experimental). Seems to be close. More details on status in [Angular Components README](https://github.com/angular/components/tree/b8d83cb0f4d990a1cb8a976b2383817b304e4dcd#what-were-working-on-now-q1-2021)
+Available in [Material Experimental](https://github.com/angular/components/tree/master/src/material-experimental). Seems to be close, but unlikely to become the default in 12.0. More details on status in [Angular Components README](https://github.com/angular/components/tree/b8d83cb0f4d990a1cb8a976b2383817b304e4dcd#what-were-working-on-now-q1-2021)
 
 ## 🤫 Offer Google engineers better integration with Angular and Google's internal server stack
 Internal project. Unlikely to have any public movement or benefits.
@@ -77,9 +81,7 @@ Some details in [Angular biweekly meeting notes](https://docs.google.com/documen
 
 Opt-in preview available in 11.1 [details here](https://github.com/angular/angular-cli/pull/18820)
 
-[A PR to make Webpack 5 the default](https://github.com/angular/angular-cli/pull/20466) has been merged!
-
-Some more work may still need to be done to take full advantage of Webpack 5 features, and to remove logic related to Webpack 4.
+[Webpack 5 is now the default](https://github.com/angular/angular-cli/pull/20084) as of 12.0.0-next.9.
 
 ## 🤫 Higher developer consistency with commit message standardization
 
