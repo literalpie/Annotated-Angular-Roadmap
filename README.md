@@ -49,11 +49,13 @@ Some more details in [Angular biweekly meeting notes](https://docs.google.com/do
 
 The partial compiler for libraries won't become default until Angular 13.
 
-## 🤫 Ensure smooth adoption for future RxJS changes (v7 and beyond)
+## 🚧 Ensure smooth adoption for future RxJS changes (v7 and beyond)
 
 No public movement yet. rxjs seems to work fine with Angular 12-next.6 in my simple project.
 
 Here's [one PR](https://github.com/angular/angular/pull/41590) that aims to improve some compatibility with the latest versions of RxJS.
+
+RxJS 7 is now officially released.
 
 ## 🚧 Transition the Angular language service to Ivy
 
