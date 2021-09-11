@@ -15,84 +15,60 @@ PRs are welcome!
 
 # In Progress
 
-## ✅ Faster apps by inlining critical styles in Universal applications
+## Improve test times and debugging with automatic test environment tear down
 
-RFC: [here](https://github.com/angular/angular-cli/issues/18730)
+The option to opt-in to this behavior was added [here](https://github.com/angular/angular/pull/42566), and is available starting in Angular 12.1.
 
-Introduced: [here](https://github.com/angular/angular-cli/pull/19449)
+There is an [open PR](https://github.com/angular/angular/pull/43353) to make this the default, probably in 13.0.
 
-Enabled By Default: [here](https://github.com/angular/angular-cli/pull/20096)
+## ✅ Deprecate and remove IE11 support
+This includes the removal of many workarounds in Angular, Angular CLI, and Angular Material. The biggest one is the [removal of differential loading](https://github.com/angular/angular-cli/pull/21467), which has been merged.
 
-## ✅ Improve debugging with better Angular error messages
+There may be more workarounds removed, but IE11 support is officially gone in the early 13.0 betas.
 
-Detailed documentation of errors has been added [here](https://angular.io/errors/NG0100)
 
-## 🚧 Revamp performance dashboards to detect regressions
+## ✅ Leverage ES2017+ as the default output language
+In Angular 12 ([this PR](https://github.com/angular/angular-cli/pull/19871)), they downlevel async/await, so that there are no longer zone.js issues. In [this PR](https://github.com/angular/angular-cli/commit/81129e12d0ae4cbaeb5ab537facb7990be9b8b45), released in Angular 12.0 , the default browser target for new projects was updated to 2017.
 
-Added [here](https://github.com/angular/angular/pull/41125)
+## 🤫 Revamp performance dashboards to detect regressions
 
-More added [here](https://github.com/angular/angular/pull/41319)
+[This](https://github.com/angular/angular/pull/41125) seems to be related to collecting performance information, but I'm not sure if it's related to this milestone or not.
 
-## ✅ Update our e2e testing strategy
 
-[Protractor deprecation announced](https://github.com/angular/protractor/issues/5502). 
-Development will end at the end of 2022.
+## 🚧 Enhanced Angular Material components by integrating MDC Web
 
-## 🚧 Angular libraries use Ivy
+Available in [Material Experimental](https://github.com/angular/components/tree/master/src/material-experimental). Seems to be close, but unlikely to become the default in 13.0. More details on status in [Angular Components README](https://github.com/angular/components/tree/b8d83cb0f4d990a1cb8a976b2383817b304e4dcd#what-were-working-on-now-q1-2021)
+
+## Angular component accessibility
+This will most likely just be a collection of smaller issues. You can see a11y issues merged since July 2021 [here](https://github.com/angular/components/issues?q=label%3Aa11y+is%3Aclosed+merged%3A%3E%3D2021-07-01+)
+
+## 🚧 Remove legacy View Engine
+
+[here](https://github.com/angular/angular-cli/pull/20434), [here](https://github.com/angular/angular-cli/pull/20443) and [here](https://github.com/angular/angular-cli/pull/20397).
+
+I think more things can still be removed because even if libraries are still in VE, ngcc will convert it to ivy-compatible code.
+
+## 🤫 Publish guides on advanced concepts
+
+No Public Movement
+
+## 🚧 Update our e2e testing strategy
+
+Protractor is now deprecated. No other movement, but something else must be planned since it's still "In Progress"
+
+## ✅ Angular libraries use Ivy
 [RFC](https://github.com/angular/angular/issues/38366)
 
 [GitHub Project Board](https://github.com/orgs/angular/projects/2)
 
-Available in 11.1, see [this article](https://blog.ninja-squad.com/2021/01/27/angular-linker/)
+The Angular Links has been available since 11.1. see [this article](https://blog.ninja-squad.com/2021/01/27/angular-linker/).
 
-Some more details in [Angular biweekly meeting notes](https://docs.google.com/document/d/1rC5dz7AkCZP813daT_bccbS-20OLmXgBVi50CSKx148/pub) from March 23, 2021.
-
-The partial compiler for libraries won't become default until Angular 13.
+The partial compiler is [the default setting](https://github.com/angular/angular-cli/pull/20470) in Angular 13 libraries. There is [a migration](https://github.com/angular/angular-cli/pull/21616) to update existing projects.
 
 ## 🚧 Ensure smooth adoption for future RxJS changes (v7 and beyond)
 
-No public movement yet. rxjs seems to work fine with Angular 12-next.6 in my simple project.
+[this PR](https://github.com/angular/angular/pull/42991) allows rxjs 7 as a peer dependency in 12.2.x. Based on the comment, I assume RxJS 7 will be required in Angular 13.
 
-Here's [one PR](https://github.com/angular/angular/pull/41590) that aims to improve some compatibility with the latest versions of RxJS.
+# Angular 12
 
-RxJS 7 is now officially released.
-
-## 🚧 Transition the Angular language service to Ivy
-
-[GitHub Project Board](https://github.com/orgs/angular/projects/1)
-
-Available in 11.X versions. Enable experimental mode in VS Code extension settings.
-
-## ✅ Increased security with native Trusted Types in Angular
-Available in 11.X. I think all the big parts are done.
-
-Some more PRs in progress [here](https://github.com/angular/angular/pull/40499), but no movement since Jan. 2021.
-
-## 🚧 Enhanced Angular Material components by integrating MDC Web
-
-Available in [Material Experimental](https://github.com/angular/components/tree/master/src/material-experimental). Seems to be close, but unlikely to become the default in 12.0. More details on status in [Angular Components README](https://github.com/angular/components/tree/b8d83cb0f4d990a1cb8a976b2383817b304e4dcd#what-were-working-on-now-q1-2021)
-
-## 🤫 Offer Google engineers better integration with Angular and Google's internal server stack
-Internal project. Unlikely to have any public movement or benefits.
-
-## 🚧 Streamline releases with consolidated Angular versioning & branching
-
-Some details in [Angular biweekly meeting notes](https://docs.google.com/document/d/1rC5dz7AkCZP813daT_bccbS-20OLmXgBVi50CSKx148/pub) from March 23, 2021. It sounds like there are some difficulties.
-
-## 🚧 Optimized build speed and bundle sizes with Angular CLI webpack 5
-
-Opt-in preview available in 11.1 [details here](https://github.com/angular/angular-cli/pull/18820)
-
-[Webpack 5 is now the default](https://github.com/angular/angular-cli/pull/20084) as of 12.0.0-next.9.
-
-## 🤫 Higher developer consistency with commit message standardization
-
-No public movement
-
-## 🤫 Accelerated debugging and performance profiling with Angular DevTools
-
-No public movement
-
-## 🤫 Improved developer onboarding with refreshed introductory documentation
-
-No public movement
+The above list shows the roadmap for the Angular 13 release cycle. For details on Angular 12 changes, [see here](./angular-12.md)
