@@ -34,7 +34,7 @@ Some more details in [Angular biweekly meeting notes](https://docs.google.com/do
 
 The partial compiler for libraries won't become default until Angular 13.
 
-## 🚧 Ensure smooth adoption for future RxJS changes (v7 and beyond)
+## ✅ Ensure smooth adoption for future RxJS changes (v7 and beyond)
 
 No public movement yet. rxjs seems to work fine with Angular 12-next.6 in my simple project.
 
@@ -42,11 +42,13 @@ Here's [one PR](https://github.com/angular/angular/pull/41590) that aims to impr
 
 RxJS 7 has been officially released.
 
-## 🚧 Transition the Angular language service to Ivy
+## ✅ Transition the Angular language service to Ivy
 
 [GitHub Project Board](https://github.com/orgs/angular/projects/1)
 
 Available in 11.X versions. Enable experimental mode in VS Code extension settings.
+
+In Angular 12, Ivy is the default for Angular Language Service. In my experience it is much better and more stable.
 
 ## ✅ Increased security with native Trusted Types in Angular
 Available in 11.X. I think all the big parts are done.
@@ -60,24 +62,28 @@ Available in [Material Experimental](https://github.com/angular/components/tree/
 ## 🤫 Offer Google engineers better integration with Angular and Google's internal server stack
 Internal project. Unlikely to have any public movement or benefits.
 
-## 🚧 Streamline releases with consolidated Angular versioning & branching
+## ✅ Streamline releases with consolidated Angular versioning & branching
 
 Some details in [Angular biweekly meeting notes](https://docs.google.com/document/d/1rC5dz7AkCZP813daT_bccbS-20OLmXgBVi50CSKx148/pub) from March 23, 2021. It sounds like there are some difficulties.
 
-## 🚧 Optimized build speed and bundle sizes with Angular CLI webpack 5
+This seems to be done. All of the latest releases for Angular CLI, Material, and Core have been released on the same day and the versions are in sync.
+
+## ✅ Optimized build speed and bundle sizes with Angular CLI webpack 5
 
 Opt-in preview available in 11.1 [details here](https://github.com/angular/angular-cli/pull/18820)
 
 [Webpack 5 is now the default](https://github.com/angular/angular-cli/pull/20084) as of 12.0.0-next.9.
 
-## 🤫 Higher developer consistency with commit message standardization
+One big feature of Webpack 5 is persistent cahes, which you can learn more about [here](https://github.com/angular/angular-cli/issues/21545). It might be turned on by deafult in Angular 13.
 
-No public movement
+## ✅ Higher developer consistency with commit message standardization
 
-## 🤫 Accelerated debugging and performance profiling with Angular DevTools
+No public changes that I know of, but marked as done.
 
-No public movement
+## ✅ Accelerated debugging and performance profiling with Angular DevTools
 
-## 🤫 Improved developer onboarding with refreshed introductory documentation
+[Angular DevTools](https://angular.io/guide/devtools) is available with some dope features.
 
-No public movement
+## ✅ Improved developer onboarding with refreshed introductory documentation
+
+I didn't watch this closely, but it's marked as done. You can see the intro docs [here](https://angular.io/guide/what-is-angular)
