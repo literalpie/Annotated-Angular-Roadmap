@@ -48,6 +48,11 @@ This will most likely just be a collection of smaller issues. You can see a11y i
 
 I think more things can still be removed because even if libraries are still in VE, ngcc will convert it to ivy-compatible code.
 
+[Removing the JIT compiler](https://github.com/angular/angular/issues/43133) is a part of this, but there is only an RFC for doing it eventually, so I don't think this will happen soon. There are many exciting things mentioned in the RFC, with links to other RFCs that have more details:
+* [localized compilation](https://github.com/angular/angular/issues/43165)
+* [Out-of-band type-checking](https://github.com/angular/angular/issues/43131)
+* [View composition APIs](https://github.com/angular/angular/issues/43120)
+
 ## 🤫 Publish guides on advanced concepts
 
 No Public Movement
@@ -68,6 +73,20 @@ The partial compiler is [the default setting](https://github.com/angular/angular
 ## 🚧 Ensure smooth adoption for future RxJS changes (v7 and beyond)
 
 [this PR](https://github.com/angular/angular/pull/42991) allows rxjs 7 as a peer dependency in 12.2.x. Based on the comment, I assume RxJS 7 will be required in Angular 13.
+
+## Simplified Angular mental model with optional NgModules
+
+[This PR](https://github.com/angular/angular/pull/42831) shows a rough prototype from someone on the team. The API will likely change a ton.
+
+# Future
+(Items with no public movement have been excluded)
+
+## Better developer ergonomics with strict typing for @angular/forms
+In [this video](https://www.youtube.com/watch?v=FbJLC7GxAAs), Minko teased that he was meeting with the team about type-safe forms. (I'm pretty sure I remember this, but sorry I did not find the timestamp)
+
+## Leverage full framework capabilities with Zone.js opt-out
+
+[This PR](https://github.com/angular/angular/pull/43081) seems to take a stab at allowing this, but I cannot tell if this is the approach that will be used.
 
 # Angular 12
 
