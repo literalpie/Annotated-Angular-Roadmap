@@ -74,17 +74,17 @@ The partial compiler is [the default setting](https://github.com/angular/angular
 
 [this PR](https://github.com/angular/angular/pull/42991) allows rxjs 7 as a peer dependency in 12.2.x. Based on the comment, I assume RxJS 7 will be required in Angular 13.
 
-## Simplified Angular mental model with optional NgModules
+## 🚧 Simplified Angular mental model with optional NgModules
 
 [This PR](https://github.com/angular/angular/pull/42831) shows a rough prototype from someone on the team. The API will likely change a ton.
 
 # Future
 (Items with no public movement have been excluded)
 
-## Better developer ergonomics with strict typing for @angular/forms
+## 🚧 Better developer ergonomics with strict typing for @angular/forms
 In [this video](https://www.youtube.com/watch?v=FbJLC7GxAAs), Minko teased that he was meeting with the team about type-safe forms. (I'm pretty sure I remember this, but sorry I did not find the timestamp)
 
-## Leverage full framework capabilities with Zone.js opt-out
+## 🚧 Leverage full framework capabilities with Zone.js opt-out
 
 [This PR](https://github.com/angular/angular/pull/43081) seems to take a stab at allowing this, but I cannot tell if this is the approach that will be used.
 
