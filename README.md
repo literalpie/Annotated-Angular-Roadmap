@@ -53,6 +53,8 @@ I think more things can still be removed because even if libraries are still in 
 * [Out-of-band type-checking](https://github.com/angular/angular/issues/43131)
 * [View composition APIs](https://github.com/angular/angular/issues/43120)
 
+As of [this PR](https://github.com/angular/angular/pull/43431), published in Angular 13.0-beta.10, the package is published in the "partially compiled" format, which means that NGCC is no longer needed to transform packages in node_modules before building. (🥳)
+
 ## 🤫 Publish guides on advanced concepts
 
 No Public Movement
