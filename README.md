@@ -80,6 +80,8 @@ The partial compiler is [the default setting](https://github.com/angular/angular
 
 [This PR](https://github.com/angular/angular/pull/42831) shows a rough prototype from someone on the team. The API will likely change a ton.
 
+[An RFC](https://github.com/angular/angular/discussions/43784) has been released with a very detailed overview of how standalone components could work.
+
 # Future
 (Items with no public movement have been excluded)
 
