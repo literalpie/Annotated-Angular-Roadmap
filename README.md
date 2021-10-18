@@ -86,7 +86,8 @@ The partial compiler is [the default setting](https://github.com/angular/angular
 (Items with no public movement have been excluded)
 
 ## 🚧 Better developer ergonomics with strict typing for @angular/forms
-In [this video](https://www.youtube.com/watch?v=FbJLC7GxAAs), Minko teased that he was meeting with the team about type-safe forms. (I'm pretty sure I remember this, but sorry I did not find the timestamp)
+[This draft PR](https://github.com/angular/angular/pull/43834) includes a prototype of a possible approach, with a very detailed description. 
+It also mentions that an RFC is incoming, and that the author is targeting an Angular 14 release.
 
 ## 🚧 Leverage full framework capabilities with Zone.js opt-out
 
